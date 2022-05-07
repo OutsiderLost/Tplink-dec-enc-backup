@@ -36,7 +36,7 @@ So where you first worked, you have to continue with that and it will work.
 ("squashfs-root"/root/ or "squashfs-root"/)
 It is recommended to run everything in "squashfs-root"/root/ !!!
 
-There is no PLUS version of 'firm_enc' because 'firmware sh' does not support complicated recompression procedures.
+There is no PLUS version of 'firm-enc' because 'firmware sh' does not support complicated recompression procedures.
 (So this must be just may done under 'linux-mips or other linux'!)
 -------------------------------------------------
 

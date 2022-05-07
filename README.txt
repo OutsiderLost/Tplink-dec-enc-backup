@@ -29,7 +29,7 @@ chmod +x *.sh
 =================================================
 
 # Other description:
-the scripts were written to delete or overwrite files it did not need.
+The scripts were written to delete or overwrite files it did not need.
 It works where it is started ("squashfs-root"/root/ or "squashfs-root"/)
 and always puts the final file in -> "squashfs-root"/root/.
 So where you first worked, you have to continue with that and it will work.

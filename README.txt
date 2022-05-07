@@ -7,7 +7,7 @@
 # Before lua scripts run
 chroot . ./bin/sh
 chmod +x *.lua
-# Before sh scripts run
+# Before bash scripts run
 exit # back in linux-mips bash
 chmod +x *.sh
 

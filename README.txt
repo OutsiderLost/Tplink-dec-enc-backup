@@ -22,6 +22,7 @@ chmod +x *.sh
 ./firm-enc-1B.lua
 ./enc-bash-2B.sh
 
+
 # Certain scripts can be run in router opened Remote SSH:
 ./firm-dec-PLUS.lua
 ./firm-dec-1A.lua

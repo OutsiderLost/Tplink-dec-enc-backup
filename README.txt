@@ -12,9 +12,9 @@ exit # back in linux-mips bash
 chmod +x *.sh
 
 # "backup" file place in -> squashfs-root/root/ and rename in scripts "backup-ArcherType-YYYY-MM-DD.bin"
-# (decoding process with extracted methods)
+# (decoding process in one with extracted methods)
 ./firm-dec-PLUS.lua
-# (or, separate method (recommended))
+# (or, separate (recommended))
 ./firm-dec-1A.lua
 ./dec-bash-2A.sh
 

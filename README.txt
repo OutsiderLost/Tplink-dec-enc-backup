@@ -40,7 +40,7 @@ So where you first worked, you have to continue with that and it will work.
 It is recommended to run everything in "squashfs-root"/root/ !!!
 
 Warning! There PLUS version of 'firm-enc' the 'router firmware sh' does not support complicated recompression procedures.
-(So this recommended done under 'linux-mips or other linux' do the separate scripts -> 'firm-enc-1B.lua and enc-bash-2B.sh' !)
+(So this recommended done under 'linux-mips or other linux' do the separate scripts -> 'firm-enc-1B.lua, enc-bash-2B.sh' !)
 
 Other linux conversion with scripts:
 create a 'root' folder, insert scripts and necessary files (backup.decrypted or ori backup, certificate files)

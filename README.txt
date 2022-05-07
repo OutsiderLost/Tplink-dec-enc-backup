@@ -19,12 +19,15 @@ chmod +x *.sh
 ./dec-bash-2A.sh
 
 # Encoding process (may rename encoding outfile in script -> "new_config.bin")
+./firm-enc-PLUS.lua
+# (or, separate (recommended))
 ./firm-enc-1B.lua
 ./enc-bash-2B.sh
 
 # Certain scripts can be run in router opened Remote SSH:
 ./firm-dec-PLUS.lua
 ./firm-dec-1A.lua
+./firm-enc-PLUS.lua
 ./firm-enc-1B.lua
 =================================================
 
@@ -36,8 +39,8 @@ So where you first worked, you have to continue with that and it will work.
 ("squashfs-root"/root/ or "squashfs-root"/)
 It is recommended to run everything in "squashfs-root"/root/ !!!
 
-There is no PLUS version of 'firm-enc' because 'firmware sh' does not support complicated recompression procedures.
-(So this must be just may done under 'linux-mips or other linux'!)
+Warning! There PLUS version of 'firm-enc' the 'router firmware sh' does not support complicated recompression procedures.
+(So this recommended done under 'linux-mips or other linux' do the separate scripts -> 'firm-enc-1B.lua and enc-bash-2B.sh' !)
 
 Other linux conversion with scripts:
 create a 'root' folder, insert scripts and necessary files (backup.decrypted or ori backup, certificate files)

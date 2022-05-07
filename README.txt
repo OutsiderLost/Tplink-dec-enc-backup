@@ -43,7 +43,7 @@ Warning! There PLUS version of 'firm-enc' the 'router firmware sh' does not supp
 (So this recommended done under 'linux-mips or other linux' do the separate scripts -> 'enc-bash-1B.sh, firm-enc-2B.lua' !)
 
 Other linux conversion with scripts:
-create a 'root' folder, insert scripts and necessary files (backup.decrypted or ori backup, certificate files)
+create a 'root' folder, insert scripts and necessary files (backup.decrypted or modied tmp/xml, certificate files)
 -------------------------------------------------
 
 # Other fast transcript commands for help working:

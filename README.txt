@@ -18,10 +18,9 @@ chmod +x *.sh
 ./firm-dec-1A.lua
 ./dec-bash-2A.sh
 
-# encoding process (may rename encoding outfile in script -> "new_config.bin")
+# Encoding process (may rename encoding outfile in script -> "new_config.bin")
 ./firm-enc-1B.lua
 ./enc-bash-2B.sh
-
 
 # Certain scripts can be run in router opened Remote SSH:
 ./firm-dec-PLUS.lua

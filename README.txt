@@ -38,6 +38,9 @@ It is recommended to run everything in "squashfs-root"/root/ !!!
 
 There is no PLUS version of 'firm-enc' because 'firmware sh' does not support complicated recompression procedures.
 (So this must be just may done under 'linux-mips or other linux'!)
+
+Other linux conversion with scripts:
+create a 'root' folder, insert scripts and necessary files (backup.decrypted or ori backup, certificate files)
 -------------------------------------------------
 
 # Other fast transcript commands for help working:

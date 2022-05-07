@@ -9,19 +9,21 @@ chmod +x *.lua
 exit # back in linux-mips bash
 chmod +x *.sh
 
-# 'backup' file place in -> squashfs-root/root/ and rename in scripts "backup-ArcherType-YYYY-MM-DD.bin"
-(decoding process with extracted methods)
-firm-dec-PLUS.lua
-(or, separate method (recommended))
-firm-dec-1A.lua
-dec-bash-2A.sh
+# "backup" file place in -> squashfs-root/root/ and rename in scripts "backup-ArcherType-YYYY-MM-DD.bin"
+# (decoding process with extracted methods)
+./firm-dec-PLUS.lua
+# (or, separate method (recommended))
+./firm-dec-1A.lua
+./dec-bash-2A.sh
 
-(
-
+# encoding process (may rename encoding outfile in script -> "new_config.bin")
+./firm-enc-1B.lua
+./enc-bash-2B.sh
 
 # Certain scripts can be run in router opened Remote SSH:
-firm-dec-PLUS.lua
-firm-dec-1A.lua
-firm-enc-1B.lua
+./firm-dec-PLUS.lua
+./firm-dec-1A.lua
+./firm-enc-1B.lua
 
+--------------------------------------------------------------
 

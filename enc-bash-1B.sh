@@ -24,9 +24,9 @@ mv ori-backup-user-config.gz ori-backup-user-config.bin
 
 echo -e "\ncopy together ORI BACKUP CERTIFICATE FILE  &  ORI BACKUP USER CONFIG FILE...\n"
 [ -d oris ] && rm -r oris
-[ -f ori-backup-certificate.bin ] && [ -f root/ori-backup-certificate.bin ] || exit
-[ -f ori-backup-certificate.bin ] || cp root/ori-backup-certificate.bin ./
 mkdir oris
+[ -f ori-backup-certificate.bin ] || [ -f root/ori-backup-certificate.bin ] || exit
+[ -f ori-backup-certificate.bin ] || cp root/ori-backup-certificate.bin ./
 cp {ori-backup-certificate.bin,ori-backup-user-config.bin} oris
 
 echo -e '\nfinal tar special compressed together copied files -> root/"ORIGINAL BACKUP DECRYPTED FILE" :-)\n'

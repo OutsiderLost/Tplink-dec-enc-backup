@@ -13,7 +13,8 @@ local BACKUP_ORIGIN_FILENAME = "/root/backup.decrypted"
 print("\ncreate ORIGINAL BACKUP DECRYPTED FILE\n")
 cry.dec_file(BACKUP_BINARY_FILENAME, BACKUP_ORIGIN_FILENAME, "0123456789abcdef    ")
 
-os.execute("[ -f /root/backup.decrypted ] || exit")
+os.execute("[ -f /root/backup.decrypted ] || echo -e '\n(something error !!! infinity sleep ! you manual exit !!!)\n'")
+os.execute("[ -f /root/backup.decrypted ] || sleep 5d")
 print("\ntar extract ORIGINAL BACKUP DECRYPTED FILE...\n")
 os.execute("[ -f ori-backup-user-config.bin ] && rm ori-backup-user-config.bin")
 os.execute("[ -f ori-backup-user-conf.bin ] && rm ori-backup-user-conf.bin")

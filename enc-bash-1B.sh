@@ -8,6 +8,7 @@ echo -e '\ntar special compressed USER CONFIG XML FILE -> ORI BACKUP USER CONFIG
 [ -f tmp/user-config.xml ] || exit
 echo -e "\nroot place -> $(pwd)\n"
 [ -f ori-backup-user-config ] && rm ori-backup-user-config
+[ -f $varpath/ori-backup-user-config ] && rm $varpath/ori-backup-user-config
 tar -b1 -cvf ori-backup-user-config -C . tmp/user-config.xml
 [ -f $varpath/ori-backup-user-config ] || mv ori-backup-user-config $varpath/ori-backup-user-config
 [ -f $varpath/ori-backup-user-config ] || exit
